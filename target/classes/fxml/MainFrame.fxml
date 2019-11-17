@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="mainFrame" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onZoom="#onZoom" prefHeight="667.0" prefWidth="1134.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.delete.renter.control.MainFrameControler">
+   <top>
+    <MenuBar BorderPane.alignment="CENTER">
+      <menus>
+        <Menu mnemonicParsing="false" text="文件">
+          <items>
+            <MenuItem fx:id="init" mnemonicParsing="false" onAction="#onInitDB" text="初始化|谨慎操作" />
+            <MenuItem mnemonicParsing="false" text="加载" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="退出" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="钢管">
+          <items>
+            <MenuItem mnemonicParsing="false" text="录入信息" />
+            <MenuItem mnemonicParsing="false" text="出借明细" />
+            <MenuItem mnemonicParsing="false" text="归还明细" />
+            <MenuItem mnemonicParsing="false" text="钢管结算" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="扣件">
+          <items>
+            <MenuItem mnemonicParsing="false" text="录入信息" />
+            <MenuItem mnemonicParsing="false" text="出借明细" />
+            <MenuItem mnemonicParsing="false" text="归还明细" />
+            <MenuItem mnemonicParsing="false" text="钢管结算" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="帮助">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+   </top>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #2959AD;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="85.0" fitWidth="85.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets left="60.0" top="15.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@/img/admin.png" />
+               </image>
+                <!--<clip>-->
+                    <!--<Circle fx:id="circle" fill="aqua" centerX="15" centerY="15">-->
+                        <!--<radius>60</radius>-->
+                    <!--</Circle>-->
+                <!--</clip>-->
+            </ImageView>
+            <Label contentDisplay="CENTER" text="你好,Admin" textAlignment="CENTER" textFill="#fcf8f8" underline="true">
+               <VBox.margin>
+                  <Insets bottom="45.0" left="60.0" top="15.0" />
+               </VBox.margin>
+            </Label>
+            <HBox prefHeight="36.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/img/steel.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="40.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label fx:id="steel" contentDisplay="CENTER" onMouseClicked="#onSteelClick" text="钢管" textAlignment="CENTER" textFill="#f8f8f8">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="30.0" top="8.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="36.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/img/koujian.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="40.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label fx:id="fastening" contentDisplay="CENTER" onMouseClicked="#onFasteningClick" text="扣件" textAlignment="CENTER" textFill="#f8f8f8">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="30.0" top="8.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="36.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/img/record.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="40.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label fx:id="record" contentDisplay="CENTER" onMouseClicked="#onRecordClick" text="管理" textAlignment="CENTER" textFill="#f8f8f8">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="30.0" top="8.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox fx:id="helpbox" prefHeight="36.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/img/help.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="40.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label fx:id="help" contentDisplay="CENTER" onMouseClicked="#onHelpClick" text="帮助" textAlignment="CENTER" textFill="#f8f8f8">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="30.0" top="8.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children></VBox>
+   </left>
+   <!--<center>-->
+      <!--<VBox prefHeight="630.0" prefWidth="711.0" BorderPane.alignment="CENTER">-->
+         <!--<children>-->
+            <!--<Label alignment="CENTER" text="钢管借还一览表" textFill="#6f6f87">-->
+               <!--<font>-->
+                  <!--<Font size="18.0" />-->
+               <!--</font>-->
+               <!--<VBox.margin>-->
+                  <!--<Insets left="20.0" top="10.0" />-->
+               <!--</VBox.margin>-->
+            <!--</Label>-->
+            <!--<Separator prefWidth="200.0" />-->
+            <!--<Pane prefHeight="54.0" prefWidth="711.0">-->
+               <!--<children>-->
+                  <!--<ChoiceBox fx:id="buildingList" layoutX="64.0" layoutY="11.0" prefHeight="32.0" prefWidth="150.0" />-->
+                  <!--<Label layoutX="21.0" layoutY="17.0" text="工地:">-->
+                     <!--<font>-->
+                        <!--<Font size="16.0" />-->
+                     <!--</font>-->
+                  <!--</Label>-->
+                  <!--<Label layoutX="225.0" layoutY="17.0" text="日期:">-->
+                     <!--<font>-->
+                        <!--<Font size="16.0" />-->
+                     <!--</font>-->
+                  <!--</Label>-->
+                  <!--<DatePicker layoutX="273.0" layoutY="14.0" />-->
+                  <!--<Button fx:id="steelAdd" layoutX="803.0" layoutY="12.0" mnemonicParsing="false" onMouseClicked="#onSteelAdd" prefHeight="31.0" prefWidth="52.0" text="录入" />-->
+                  <!--<Button fx:id="steelSettle" layoutX="868.0" layoutY="12.0" mnemonicParsing="false" onMouseClicked="#onSteelSettle" prefHeight="31.0" prefWidth="52.0" text="结算" />-->
+               <!--</children>-->
+            <!--</Pane>-->
+            <!--<Separator prefWidth="200.0" />-->
+            <!--<TreeTableView prefHeight="546.0" prefWidth="934.0">-->
+              <!--<columns>-->
+                <!--<TreeTableColumn fx:id="rentalType" prefWidth="75.0" text="借/还" />-->
+                <!--<TreeTableColumn fx:id="building" prefWidth="156.0" text="工地" />-->
+                  <!--<TreeTableColumn fx:id="scale" prefWidth="116.0" text="规格" />-->
+                  <!--<TreeTableColumn fx:id="num" prefWidth="142.0" text="数量" />-->
+                  <!--<TreeTableColumn fx:id="subtotal" prefWidth="116.0" text="小计米数" />-->
+                  <!--<TreeTableColumn fx:id="unitPrice" prefWidth="104.0" text="单价(元/米·天)" />-->
+                  <!--<TreeTableColumn fx:id="desc" prefWidth="223.0" text="备注" />-->
+              <!--</columns>-->
+            <!--</TreeTableView>-->
+         <!--</children>-->
+      <!--</VBox>-->
+   <!--</center>-->
+</BorderPane>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="recordContent" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="802.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.delete.renter.control.MainFrameControler">
+    <children>
+        <Pane prefHeight="150.0" prefWidth="802.0" />
+        <HBox prefHeight="95.0" prefWidth="600.0">
+            <children>
+                <Pane prefHeight="91.0" prefWidth="200.0">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="38.0" text="工地录入" textAlignment="CENTER">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <VBox prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <ImageView fitHeight="86.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@/img/building.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <Pane prefHeight="36.0" prefWidth="802.0" />
+        <HBox prefHeight="89.0" prefWidth="802.0">
+            <children>
+                <Pane prefHeight="200.0" prefWidth="200.0">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="111.0" layoutY="39.0" text="钢管录入" textAlignment="CENTER">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <VBox prefHeight="98.0" prefWidth="100.0">
+                    <children>
+                        <ImageView fitHeight="86.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@/img/renter.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            <Pane prefHeight="116.0" prefWidth="90.0" />
+                <VBox prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <ImageView fitHeight="86.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@/img/return.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <Pane prefHeight="48.0" prefWidth="802.0" />
+        <HBox prefHeight="54.0" prefWidth="600.0">
+            <children>
+                <Pane prefHeight="200.0" prefWidth="200.0">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="36.0" text="扣件录入" textAlignment="CENTER">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <VBox prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <ImageView fitHeight="86.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@/img/renter.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            <Pane prefHeight="91.0" prefWidth="83.0" />
+                <VBox prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <ImageView fitHeight="86.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@/img/return.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+    </children>
+</VBox>

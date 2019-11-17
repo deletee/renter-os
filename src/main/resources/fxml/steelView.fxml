@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="681.0" prefWidth="904.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.delete.renter.control.SteelViewControler">
+    <children>
+        <Label alignment="CENTER" text="钢管借还一览表" textFill="#6f6f87">
+            <font>
+                <Font size="18.0" />
+            </font>
+            <VBox.margin>
+                <Insets left="20.0" top="10.0" />
+            </VBox.margin>
+        </Label>
+        <Separator prefWidth="200.0" />
+        <Pane prefHeight="54.0" prefWidth="711.0">
+            <children>
+            <ComboBox fx:id="buildings" layoutX="65.0" layoutY="10.0" onAction="#querySteelRecordByBuilding" prefHeight="31.0" prefWidth="150.0" />
+                <Label layoutX="21.0" layoutY="17.0" text="工地:">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+                <Label layoutX="225.0" layoutY="17.0" text="日期:">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+                <DatePicker fx:id="datePicker" layoutX="273.0" layoutY="14.0" />
+                <Button fx:id="steelAdd" layoutX="702.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onSteelAdd" prefHeight="31.0" prefWidth="52.0" text="录入" />
+                <Button fx:id="steelSettle" layoutX="767.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onSteelSettle" prefHeight="31.0" prefWidth="52.0" text="结算" />
+            <Button fx:id="steelRefresh" layoutX="831.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onSteelRefresh" prefHeight="31.0" prefWidth="52.0" text="刷新" />
+            </children>
+        </Pane>
+        <Separator prefHeight="-Infinity" prefWidth="200.0" />
+        <TableView fx:id="steelTableView" prefHeight="600">
+            <columns>
+                <TableColumn fx:id="id" prefWidth="50.0" text="编号" />
+                <TableColumn fx:id="renterType" prefWidth="50.0" text="借/还" />
+                <TableColumn fx:id="buildName" prefWidth="156.0" text="工地" />
+                <TableColumn fx:id="owner" prefWidth="100.0" text="负责人" />
+                <TableColumn fx:id="time" prefWidth="100.0" text="日期" />
+                <TableColumn fx:id="norms" prefWidth="156.0" text="规格(类型*米数)" />
+                <TableColumn fx:id="num" prefWidth="100.0" text="数量" />
+                <TableColumn fx:id="unitPrice" prefWidth="156.0" text="单价(元/米·天)" />
+            </columns>
+        </TableView>
+    </children>
+</VBox>

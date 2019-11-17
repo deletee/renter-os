@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="renter">
+  <database-model serializer="dbm" rdbms="DERBY" format-version="4.7">
+    <root id="1"/>
+    <schema id="2" parent="1" name="APP">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="NULLID"/>
+    <schema id="4" parent="1" name="SQLJ"/>
+    <schema id="5" parent="1" name="SYS"/>
+    <schema id="6" parent="1" name="SYSCAT"/>
+    <schema id="7" parent="1" name="SYSCS_DIAG"/>
+    <schema id="8" parent="1" name="SYSCS_UTIL"/>
+    <schema id="9" parent="1" name="SYSFUN"/>
+    <schema id="10" parent="1" name="SYSIBM"/>
+    <schema id="11" parent="1" name="SYSPROC"/>
+    <schema id="12" parent="1" name="SYSSTAT"/>
+    <table id="13" parent="2" name="STEEL"/>
+    <column id="14" parent="13" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
+    </column>
+    <column id="15" parent="13" name="BUILDNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(200)|12</DataType>
+    </column>
+    <column id="16" parent="13" name="OWNER">
+      <Position>3</Position>
+      <DataType>VARCHAR(200)|12</DataType>
+    </column>
+    <column id="17" parent="13" name="TIME">
+      <Position>4</Position>
+      <DataType>BIGINT(19)|-5</DataType>
+    </column>
+    <column id="18" parent="13" name="NORMS">
+      <Position>5</Position>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="19" parent="13" name="RENTERTYPE">
+      <Position>6</Position>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="20" parent="13" name="NUM">
+      <Position>7</Position>
+      <DataType>DECIMAL(5)|3</DataType>
+    </column>
+    <column id="21" parent="13" name="UNITPRICE">
+      <Position>8</Position>
+      <DataType>DECIMAL(5)|3</DataType>
+    </column>
+    <key id="22" parent="13" name="SQL191110030235470">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
