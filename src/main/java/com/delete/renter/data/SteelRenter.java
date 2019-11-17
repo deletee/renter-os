@@ -1,8 +1,10 @@
 package com.delete.renter.data;
 
+import com.delete.renter.utils.DateUtil;
+
 import java.io.Serializable;
 
-public class SteelRenter implements Serializable{
+public class SteelRenter implements Serializable,Comparable<SteelRenter>{
     private int id;
     private String buildName;
     private String owner;
@@ -103,5 +105,10 @@ public class SteelRenter implements Serializable{
                 ", num=" + num +
                 ", unitPrice=" + unitPrice +
                 '}';
+    }
+
+    @Override
+    public int compareTo(SteelRenter o) {
+        return DateUtil.dateSub(this.time,o.time);
     }
 }

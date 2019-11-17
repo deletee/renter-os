@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4aa00ad-b688-4572-beba-eb879639f867" name="Default" comment="" />
+    <list default="true" id="b4aa00ad-b688-4572-beba-eb879639f867" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
+      <change beforePath="$PROJECT_DIR$/renter/db.lck" afterPath="$PROJECT_DIR$/renter/db.lck" />
+      <change beforePath="$PROJECT_DIR$/renter/log/log.ctrl" afterPath="$PROJECT_DIR$/renter/log/log.ctrl" />
+      <change beforePath="$PROJECT_DIR$/renter/log/log1.dat" afterPath="$PROJECT_DIR$/renter/log/log1.dat" />
+      <change beforePath="$PROJECT_DIR$/renter/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/renter/log/logmirror.ctrl" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c590.dat" afterPath="$PROJECT_DIR$/renter/seg0/c590.dat" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c5a1.dat" afterPath="$PROJECT_DIR$/renter/seg0/c5a1.dat" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c90.dat" afterPath="$PROJECT_DIR$/renter/seg0/c90.dat" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelSettleControler.java" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelSettleControler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelRenter.java" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelRenter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelSettle.java" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelSettle.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/SteelSettleFrame.java" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/SteelSettleFrame.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/utils/DateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/utils/DateUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/steelSettle.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/steelSettle.fxml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelSettleControler.class" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelSettleControler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelViewControler.class" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelViewControler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/data/SteelRenter.class" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/data/SteelRenter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/data/SteelSettle.class" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/data/SteelSettle.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/SteelSettleFrame.class" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/SteelSettleFrame.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/utils/DateUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/utils/DateUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/steelSettle.fxml" afterPath="$PROJECT_DIR$/target/classes/fxml/steelSettle.fxml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,20 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="NewSteelRecordControler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewSteelRecordControler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1830">
-              <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ResultController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/test/ResultController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="0">
               <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,38 +86,63 @@
       <file leaf-file-name="SteelViewControler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3090">
-              <caret line="125" column="42" lean-forward="false" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
+            <state relative-caret-position="-53">
+              <caret line="125" column="9" lean-forward="false" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SteelSettleControler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SteelSettleControler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelSettleControler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="423">
+              <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SteelSettle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelSettle.java">
+      <file leaf-file-name="steelView.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/steelView.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1641">
-              <caret line="97" column="6" lean-forward="false" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+            <state relative-caret-position="292">
+              <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SteelRenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelRenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding>
-                <element signature="e#2127#2128#0" expanded="true" />
-                <element signature="e#2151#2152#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1098#1099#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#2491#2492#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RenterType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/constant/RenterType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,8 +163,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="46" />
+            <state relative-caret-position="22">
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -134,8 +173,8 @@
       <file leaf-file-name="SteelSettleFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/ui/SteelSettleFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+            <state relative-caret-position="240">
+              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -194,6 +233,9 @@
       <replace>SteelSettle</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -227,10 +269,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/delete/renter/dao/DBHandlerTest.java" />
         <option value="src:table:/b2805306/2b702d75-9e97-4a02-a2f2-b068e15666be/APP.STEEL" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/fasteningView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/utils/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/constant/RenterType.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/newSteelRecord.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelRenter.java" />
         <option value="$PROJECT_DIR$/src/main/resources/database/tables.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/utils/NormCalc.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/delete/renter/dao/DataHelperTest.java" />
@@ -250,14 +290,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/test/ResultController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/tools/FrameLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/SteelSettleFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/steelSettle.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/MainFrame.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/test/InputController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/data/EventModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelRenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/utils/DateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelSettle.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/steelSettle.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/SteelSettleFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelSettleControler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelSettle.java" />
       </list>
     </option>
   </component>
@@ -281,9 +323,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="316" />
+    <option name="y" value="214" />
+    <option name="width" value="1790" />
+    <option name="height" value="1152" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -339,7 +384,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="renter" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="renter-os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renter-os" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="renter" type="462c0819:PsiDirectoryNode" />
               <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="renter-os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renter-os" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="renter" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="renter-os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renter-os" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="renter" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="renter-os" type="b2602c69:ProjectViewProjectNode" />
@@ -357,7 +429,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="renter" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="renter-os" type="b2602c69:ProjectViewProjectNode" />
@@ -668,8 +740,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.MainFrame" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SteelSettleFrame" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SteelSettleFrame" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
         <item index="3" class="java.lang.String" itemvalue="Application.NewFasteningRecordFrame" />
         <item index="4" class="java.lang.String" itemvalue="Application.NewReturnFrame" />
       </list>
@@ -705,7 +777,7 @@
       <workItem from="1573356951307" duration="149000" />
       <workItem from="1573357120529" duration="19473000" />
       <workItem from="1573861252957" duration="10388000" />
-      <workItem from="1573973729339" duration="16000" />
+      <workItem from="1573973729339" duration="6591000" />
     </task>
     <servers />
   </component>
@@ -742,7 +814,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103656000" />
+    <option name="totallyTimeSpent" value="110231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -750,13 +822,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730561" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4421338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2983725" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -773,7 +846,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730561" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19687964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -873,12 +945,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelSettleControler.java</url>
-          <line>101</line>
+          <line>164</line>
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelSettleControler.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="57" />
+      <option name="time" value="61" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -888,6 +966,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>DateUtil.dateSub(this.time,o.time)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>txtView.getText()</expression-string>
         <language-id>JAVA</language-id>
@@ -925,11 +1008,6 @@
       </expression>
       <expression>
         <expression-string>mainFrame.getTop()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getClass().getResource(&quot;fxml/MainFrame.fxml&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -983,29 +1061,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/ui/NewFasteningRecordFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="220" column="28" lean-forward="false" selection-start-line="220" selection-start-column="28" selection-end-line="220" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/ui/BuildingRecordFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/fasteningView.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1028,6 +1083,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="384" column="22" lean-forward="false" selection-start-line="384" selection-start-column="22" selection-end-line="384" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,20 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="278" column="25" lean-forward="false" selection-start-line="278" selection-start-column="25" selection-end-line="278" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/constant/RenterType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/utils/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1109">
-          <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1063,6 +1105,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,6 +1152,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,14 +1183,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/ui/NewReturnFrame.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelRenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-998">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/ui/NewSteelRecordFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-341">
@@ -1159,16 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/steelView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1177,6 +1203,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,6 +1211,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="304" column="29" lean-forward="false" selection-start-line="304" selection-start-column="15" selection-end-line="304" selection-end-column="29" />
+          <folding>
+            <element signature="e#11614#11615#0" expanded="false" />
+            <element signature="e#11668#11669#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,6 +1257,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2125">
           <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="e#2583#2584#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1243,6 +1277,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="1772" column="0" lean-forward="false" selection-start-line="1772" selection-start-column="0" selection-end-line="1772" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,7 +1301,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewSteelRecordControler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
+        <state relative-caret-position="0">
           <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
           <folding />
         </state>
@@ -1276,14 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/ui/SteelSettleFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,17 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/steelSettle.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -1364,7 +1380,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/test/ResultController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="0">
           <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1384,35 +1400,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3090">
-          <caret line="125" column="42" lean-forward="false" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
+        <state relative-caret-position="360">
+          <caret line="139" column="57" lean-forward="false" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+          <folding>
+            <element signature="e#5644#5645#0" expanded="false" />
+            <element signature="e#5675#5676#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="306" column="12" lean-forward="false" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelSettleControler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/utils/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-528">
+          <caret line="186" column="45" lean-forward="false" selection-start-line="186" selection-start-column="45" selection-end-line="186" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/core/Stat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/constant/RenterType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/steelView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/steelSettle.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelSettle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1641">
-          <caret line="97" column="6" lean-forward="false" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+        <state relative-caret-position="506">
+          <caret line="112" column="34" lean-forward="false" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
           <folding>
-            <element signature="e#2127#2128#0" expanded="true" />
-            <element signature="e#2151#2152#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="false" />
+            <element signature="e#1682#1683#0" expanded="false" />
+            <element signature="e#1725#1726#0" expanded="false" />
+            <element signature="e#1761#1762#0" expanded="false" />
+            <element signature="e#2293#2294#0" expanded="false" />
+            <element signature="e#2317#2318#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/ui/SteelSettleFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="125" column="9" lean-forward="false" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelRenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelSettleControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
           </folding>
         </state>
       </provider>

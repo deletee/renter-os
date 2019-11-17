@@ -180,6 +180,13 @@ public class DateUtil {
         return dateToString(calendar.getTime(), FORMAT_ONE);
     }
 
+
+    public static int dateSub(String d1,String d2){
+        Date date1 = stringToDate(d1, LONG_DATE_FORMAT);
+        Date date2 = stringToDate(d2, LONG_DATE_FORMAT);
+        return getDay(date1) - getDay(date2);
+    }
+
     /**
      * @param date
      * @param amount

@@ -112,19 +112,17 @@ public class SteelViewControler implements Initializable {
     }
 
     public void onSteelSettle(){
-        if (!steelSettleFrame.isShow()){
-            if (buildings.getValue().equals("全部")){
-                DialogBuilder dialogBuilder = new DialogBuilder(steelSettle).setTitle("提示")
-                        .setMessage("无法对所有记录进行计算，请选择指定工地进行结算！")
-                        .setNegativeBtn("确定");
-                dialogBuilder.create();
-            }else{
-                ObservableList<SteelRenter> steelRenterForSettleList = FXCollections.observableArrayList();
-                steelRenterForSettleList.addAll(steelRenterList);
-                steelRenterForSettleList.removeIf(steelRenter -> steelRenter.getBuildName().equals(buildings.getValue()));
-                steelSettleFrame.show();
-                SteelSettleControler.getEventModel().onAction(buildings.getValue());
-            }
+        if (buildings.getValue().equals("全部")){
+            DialogBuilder dialogBuilder = new DialogBuilder(steelSettle).setTitle("提示")
+                    .setMessage("无法对所有记录进行计算，请选择指定工地进行结算！")
+                    .setNegativeBtn("确定");
+            dialogBuilder.create();
+        }else{
+            ObservableList<SteelRenter> steelRenterForSettleList = FXCollections.observableArrayList();
+            steelRenterForSettleList.addAll(steelRenterList);
+            steelRenterForSettleList.removeIf(steelRenter -> steelRenter.getBuildName().equals(buildings.getValue()));
+            steelSettleFrame.show();
+            SteelSettleControler.getEventModel().onAction(buildings.getValue());
         }
     }
 

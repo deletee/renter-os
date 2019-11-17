@@ -43,7 +43,7 @@ public class SteelSettleFrame extends Application{
         decorator.setCustomMaximize(true);
         decorator.setGraphic(new SVGGlyph(-1, "UNNAMED", "", Color.BLUE));
 
-        Scene scene = new Scene(decorator, 920, 669);
+        Scene scene = new Scene(decorator, 1074, 669);
         final ObservableList<String> stylesheets = scene.getStylesheets();
         stylesheets.addAll(NewSteelRecordFrame.class.getResource("/css/jfoenix-fonts.css").toExternalForm(),
                 NewSteelRecordFrame.class.getResource("/css/jfoenix-design.css").toExternalForm(),
@@ -60,7 +60,7 @@ public class SteelSettleFrame extends Application{
         Stage stage = new Stage();
         try {
             this.start(stage);
-            setShow(true);
+//            setShow(true);
         } catch (Exception e) {
             e.printStackTrace();
         }

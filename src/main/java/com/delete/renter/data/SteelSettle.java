@@ -9,6 +9,7 @@ public class SteelSettle implements Serializable,Comparable{
     private String time;
     private String renterType;
     private float num;
+    private float accNum;
     private float unitPrice;
     private int days;
     private float price;
@@ -83,6 +84,14 @@ public class SteelSettle implements Serializable,Comparable{
 
     public void setPrice(float price) {
         this.price = price;
+    }
+
+    public float getAccNum() {
+        return accNum;
+    }
+
+    public void setAccNum(float accNum) {
+        this.accNum = accNum;
     }
 
     @Override

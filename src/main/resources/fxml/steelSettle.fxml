@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="915.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="1064.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
     <children>
+      <Pane prefHeight="100.0" prefWidth="1064.0">
+         <children>
+             <Label fx:id="settleTile" alignment="CENTER" layoutX="20.0" layoutY="14.0" text="正在进行A工地结算：" textFill="#6f6f87">
+                 <font>
+                     <Font size="18.0" />
+                 </font>
+                 <VBox.margin>
+                     <Insets left="20.0" top="10.0" />
+                 </VBox.margin>
+             </Label>
+         </children>
+      </Pane>
+      <Separator prefWidth="200.0" />
         <TableView fx:id="steelSettleTableView" prefHeight="628.0" prefWidth="920.0">
             <columns>
                 <TableColumn fx:id="id" prefWidth="50.0" text="编号" />
@@ -14,6 +29,7 @@
                 <TableColumn fx:id="time" prefWidth="96.0" text="日期" />
                 <TableColumn fx:id="unitPrice" prefWidth="100.0" text="单价" />
                 <TableColumn fx:id="num" prefWidth="100.0" text="数量" />
+                <TableColumn fx:id="accNum" prefWidth="100.0" text="累计数量" />
                 <TableColumn fx:id="days" prefWidth="99.0" text="天数" />
                 <TableColumn fx:id="price" prefWidth="213.0" text="价格" />
             </columns>
