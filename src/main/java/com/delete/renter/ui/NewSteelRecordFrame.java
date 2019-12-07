@@ -21,7 +21,7 @@ public class NewSteelRecordFrame extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("钢管信息录入-出借");
+        primaryStage.setTitle("钢管信息录入");
         int screenWidth = Toolkit.getDefaultToolkit().getScreenSize().width;
         int screenHeight = Toolkit.getDefaultToolkit().getScreenSize().height;
 

@@ -2,94 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4aa00ad-b688-4572-beba-eb879639f867" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2b702d75-9e97-4a02-a2f2-b068e15666be.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2b702d75-9e97-4a02-a2f2-b068e15666be.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/renter/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/MainFrameControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/MainFrameControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/constant/RenterType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/BuildingRecordControler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/FasteningViewControler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/MainFrameControler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewFasteningRecordControler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewSteelRecordControler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/RecordController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelSettleControler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelViewControler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/core/Stat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/dao/DBHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/dao/DataHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/dao/FileHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/dao/FileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/dao/Operate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/data/DialogBuilder$OnClickListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/data/DialogBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/data/EventModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/data/SteelRenter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/data/SteelSettle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/demo/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/demo/ColorfulCircles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/demo/FXMLExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/demo/FXMLExampleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/demo/MainFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/demo/MainFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/demo/MenuSample$PageData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/demo/MenuSample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/demo/TableViewSample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/demo/TableViewSample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/test/AppModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/test/InputController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/test/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/test/ResultController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/tools/FrameLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/BuildingRecordFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/MainFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/NewFasteningRecordFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/NewSteelRecordFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/SteelSettleFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/utils/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/utils/NormCalc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/jfoenix-components.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/jfoenix-design.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/jfoenix-fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/jfoenix-main-demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/tables.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/Input.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/MainFrame.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/ResultPage.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/buildingRecord.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/fasteningView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/newFasteningRecord.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/newSteelRecord.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/record.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/steelSettle.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/steelView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/admin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/building.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/help.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/koujian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/record.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/rental entry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/renter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/return.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/steel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/delete/renter/core/StatTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/delete/renter/dao/DBHandlerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/delete/renter/dao/DataHelperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/FasteningViewControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/FasteningViewControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/NewFasteningRecordFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/NewFasteningRecordFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/NewSteelRecordFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/NewSteelRecordFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/fasteningView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/fasteningView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/newFasteningRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/newFasteningRecord.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/newSteelRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/newSteelRecord.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/steelView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/steelView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/FasteningViewControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/FasteningViewControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewFasteningRecordControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewFasteningRecordControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelViewControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelViewControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/NewFasteningRecordFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/NewFasteningRecordFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/NewSteelRecordFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/NewSteelRecordFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/fasteningView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/fasteningView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/newFasteningRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/newFasteningRecord.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/newSteelRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/newSteelRecord.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/steelView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/steelView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -129,48 +74,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>buildName</find>
-      <find>owner</find>
-      <find>datePicker</find>
-      <find>returnType</find>
-      <find>norms</find>
-      <find>num</find>
-      <find>unitPrice</find>
-      <find>View</find>
-      <find>onSteelAddCancel</find>
-      <find>commons</find>
-      <find>@Nullable</find>
-      <find>stat</find>
-      <find>static</find>
-      <find>initialize</find>
-      <find>steel</find>
-      <find>Tree</find>
-      <find>renterType</find>
-      <find>steelAdd</find>
-      <find>Longto</find>
-      <find>StringT</find>
-      <find>Radio</find>
-      <find>onTextChange</find>
-      <find>onInitDB</find>
-      <find>onSteelAddSave</find>
-      <find>init</find>
-      <find>load(</find>
-      <find>结算</find>
-      <find>SteelRenter</find>
-      <find>FXMLLoader</find>
-      <find>steelTableView</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>/img</replace>
-      <replace>JFXTextField</replace>
-      <replace>Fastening</replace>
-      <replace>Steel</replace>
-      <replace>steel</replace>
-      <replace>SteelSettle</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -239,7 +142,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainFrame">
+  <component name="RunManager" selected="Application.NewFasteningRecordFrame">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -356,8 +259,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainFrame" />
         <item itemvalue="Application.NewFasteningRecordFrame" />
+        <item itemvalue="Application.MainFrame" />
         <item itemvalue="Application.SteelSettleFrame" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.NewReturnFrame" />
@@ -401,7 +304,7 @@
       <workItem from="1573973729339" duration="6802000" />
       <workItem from="1575076446626" duration="996000" />
       <workItem from="1575688150349" duration="363000" />
-      <workItem from="1575706688059" duration="5000" />
+      <workItem from="1575706688059" duration="2451000" />
     </task>
     <servers />
   </component>
@@ -441,10 +344,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1575707053437">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1575707053437" />
     <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575688210036">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1575688210036" />
+    <state width="1388" height="206" key="GridCell.Tab.0.bottom" timestamp="1575709443546">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="206" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575709443546" />
+    <state width="1388" height="206" key="GridCell.Tab.0.center" timestamp="1575709443545">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="206" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575709443545" />
+    <state width="1388" height="206" key="GridCell.Tab.0.left" timestamp="1575709443544">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="206" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575709443544" />
+    <state width="1388" height="206" key="GridCell.Tab.0.right" timestamp="1575709443546">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="206" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575709443546" />
+    <state x="509" y="103" key="RollbackChangesDialog" timestamp="1575708686416">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="509" y="103" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1575708686416" />
     <state x="640" y="199" key="SettingsEditor" timestamp="1575688202039">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

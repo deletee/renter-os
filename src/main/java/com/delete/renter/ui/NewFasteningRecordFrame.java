@@ -1,6 +1,6 @@
 package com.delete.renter.ui;
 
-import com.delete.renter.control.NewSteelRecordControler;
+import com.delete.renter.control.NewFasteningRecordControler;
 import com.jfoenix.controls.JFXDecorator;
 import com.jfoenix.svg.SVGGlyph;
 import io.datafx.controller.flow.Flow;
@@ -21,11 +21,11 @@ public class NewFasteningRecordFrame extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("扣件信息录入-出借");
+        primaryStage.setTitle("扣件信息录入");
         int screenWidth = Toolkit.getDefaultToolkit().getScreenSize().width;
         int screenHeight = Toolkit.getDefaultToolkit().getScreenSize().height;
 
-        Flow flow = new Flow(NewSteelRecordControler.class);
+        Flow flow = new Flow(NewFasteningRecordControler.class);
         DefaultFlowContainer container = new DefaultFlowContainer();
         flowContext = new ViewFlowContext();
         flowContext.register("Stage", primaryStage);
