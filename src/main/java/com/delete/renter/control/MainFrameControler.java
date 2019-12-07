@@ -92,7 +92,7 @@ public class MainFrameControler implements Initializable {
     }
 
     @FXML
-    public void onDragDetect(){
+    private void onDragDetect(){
         double topH = ((MenuBar)mainFrame.getTop()).getHeight();
         double leftW = ((VBox)mainFrame.getLeft()).getWidth();
 
