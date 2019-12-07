@@ -24,6 +24,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.io.IOException;
 import java.net.URL;
 import java.time.LocalDate;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 @ViewController(value = "/fxml/newSteelRecord.fxml", title = "Material Design Example")
@@ -60,6 +61,7 @@ public class NewSteelRecordControler implements Initializable{
 
     @FXML
     private HBox unitPriceHBox;
+
     @FXML
     private JFXDialog dialog;
 
@@ -115,7 +117,7 @@ public class NewSteelRecordControler implements Initializable{
                     .setPositiveBtn("确定", () -> {
                         FXMLLoader loader = new FXMLLoader();
                         try {
-                            loader.load(getClass().getClassLoader().getResourceAsStream("fxml/steelView.fxml"));
+                            loader.load(Objects.requireNonNull(getClass().getClassLoader().getResourceAsStream("fxml/steelView.fxml")));
                         } catch (IOException e) {
                             e.printStackTrace();
                         }

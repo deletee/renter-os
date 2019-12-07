@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox fx:id="contentPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+<VBox fx:id="contentPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox prefHeight="93.0" prefWidth="600.0" />
+      <HBox prefHeight="111.0" prefWidth="642.0" />
       <HBox prefHeight="37.0" prefWidth="600.0">
          <children>
             <Pane prefHeight="37.0" prefWidth="75.0" />
@@ -117,13 +118,13 @@
                </HBox.margin>
             </Label>
             <Pane prefHeight="42.0" prefWidth="19.0" />
-            <RadioButton fx:id="renterType" mnemonicParsing="false" selected="true" text="出借">
+            <RadioButton fx:id="renterType" mnemonicParsing="false" onAction="#onRenter" selected="true" text="出借">
                <HBox.margin>
                   <Insets top="5.0" />
                </HBox.margin>
             </RadioButton>
             <Pane prefHeight="37.0" prefWidth="20.0" />
-            <RadioButton fx:id="returnType" mnemonicParsing="false" text="归还">
+            <RadioButton fx:id="returnType" mnemonicParsing="false" onAction="#onReturn" text="归还">
                <HBox.margin>
                   <Insets top="5.0" />
                </HBox.margin>
@@ -152,24 +153,21 @@
                   <Insets top="6.0" />
                </HBox.margin>
             </Label>
-            <ComboBox prefHeight="27.0" prefWidth="99.0">
+            <ComboBox fx:id="norms" prefHeight="27.0" prefWidth="99.0">
                <HBox.margin>
                   <Insets left="20.0" />
                </HBox.margin>
             </ComboBox>
-            <Pane prefHeight="42.0" prefWidth="22.0" />
-            <TextField fx:id="norms" prefHeight="27.0" prefWidth="71.0" promptText="价格" />
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="173.0" layoutY="16.0" prefHeight="20.0" prefWidth="33.0" text="x" textFill="#19757f">
+            <Pane prefHeight="42.0" prefWidth="16.0" />
+            <TextField fx:id="number" prefHeight="27.0" prefWidth="71.0" promptText="数量" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="173.0" layoutY="16.0" prefHeight="20.0" prefWidth="20.0" text="x" textFill="#19757f" fx:id="x">
                <font>
                   <Font size="15.0" />
                </font>
             </Label>
-            <TextField fx:id="norms1" layoutX="233.0" layoutY="10.0" prefHeight="27.0" prefWidth="71.0" promptText="数量" />
-            <Text fx:id="error4" fill="#e40b0b" strokeType="OUTSIDE" strokeWidth="0.0" text="格式不正确" textAlignment="CENTER" visible="false">
-               <HBox.margin>
-                  <Insets left="5.0" top="5.0" />
-               </HBox.margin>
-            </Text>
+            <TextField fx:id="unitprice" layoutX="233.0" layoutY="10.0" prefHeight="27.0" prefWidth="71.0" promptText="价格" />
+            <Pane prefHeight="42.0" prefWidth="12.0" />
+            <Button fx:id="normalAddBtn" mnemonicParsing="false" onAction="#onAddNorm" prefHeight="27.0" prefWidth="55.0" text="增加" />
          </children>
       </HBox>
       <Pane prefHeight="20.0" prefWidth="600.0">
@@ -179,8 +177,8 @@
       </Pane>
       <HBox prefHeight="42.0" prefWidth="600.0">
          <children>
-            <Pane prefHeight="42.0" prefWidth="162.0" />
-            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="20.0" prefWidth="38.0" text="米数:" textFill="#19757f" underline="true">
+            <Pane prefHeight="42.0" prefWidth="129.0" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="20.0" prefWidth="73.0" text="当前规格:" textFill="#19757f" underline="true">
                <font>
                   <Font size="15.0" />
                </font>
@@ -188,8 +186,25 @@
                   <Insets top="6.0" />
                </HBox.margin>
             </Label>
-            <Pane prefHeight="42.0" prefWidth="22.0" />
-            <TextField fx:id="num" disable="true" editable="false" prefHeight="27.0" prefWidth="210.0" />
+            <Pane prefHeight="42.0" prefWidth="17.0" />
+            <TextField fx:id="curNorms" disable="true" editable="false" prefHeight="27.0" prefWidth="277.0" />
+            <Pane prefHeight="42.0" prefWidth="12.0" />
+            <Button fx:id="normalClearBtn" mnemonicParsing="false" onAction="#onClearNorm" prefHeight="27.0" prefWidth="55.0" text="清除" />
+         </children>
+      </HBox>
+      <HBox fx:id="priceHbox" layoutX="10.0" layoutY="338.0" prefHeight="42.0" prefWidth="600.0">
+         <children>
+            <Pane prefHeight="42.0" prefWidth="129.0" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="139.0" layoutY="16.0" prefHeight="20.0" prefWidth="73.0" text="当前单价:" textFill="#19757f" underline="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="6.0" />
+               </HBox.margin>
+            </Label>
+            <Pane layoutX="212.0" layoutY="10.0" prefHeight="42.0" prefWidth="17.0" />
+            <TextField fx:id="curUnitPrice" disable="true" editable="false" layoutX="229.0" layoutY="10.0" prefHeight="27.0" prefWidth="181.0" />
          </children>
       </HBox>
       <Separator prefWidth="200.0" />
@@ -218,6 +233,5 @@
             <Insets top="10.0" />
          </VBox.margin>
       </HBox>
-      <Pane layoutX="10.0" layoutY="318.0" prefHeight="33.0" prefWidth="600.0" />
    </children>
 </VBox>

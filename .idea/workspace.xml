@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4aa00ad-b688-4572-beba-eb879639f867" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/renter/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/FasteningViewControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/FasteningViewControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/NewFasteningRecordFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/NewFasteningRecordFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/NewSteelRecordFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/NewSteelRecordFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/fasteningView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/fasteningView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewSteelRecordControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewSteelRecordControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/newFasteningRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/newFasteningRecord.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/newSteelRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/newSteelRecord.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/steelView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/steelView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/FasteningViewControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/FasteningViewControler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewFasteningRecordControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewFasteningRecordControler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelViewControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelViewControler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/NewFasteningRecordFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/NewFasteningRecordFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/NewSteelRecordFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/ui/NewSteelRecordFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/fasteningView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/fasteningView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewSteelRecordControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewSteelRecordControler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fxml/newFasteningRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/newFasteningRecord.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/newSteelRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/newSteelRecord.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/steelView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/steelView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +286,7 @@
       <workItem from="1573973729339" duration="6802000" />
       <workItem from="1575076446626" duration="996000" />
       <workItem from="1575688150349" duration="363000" />
-      <workItem from="1575706688059" duration="2451000" />
+      <workItem from="1575706688059" duration="5434000" />
     </task>
     <servers />
   </component>
@@ -344,30 +326,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1575707053437">
+    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1575711085606">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1575707053437" />
+    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1575711085606" />
     <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575688210036">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1575688210036" />
-    <state width="1388" height="206" key="GridCell.Tab.0.bottom" timestamp="1575709443546">
+    <state width="1388" height="206" key="GridCell.Tab.0.bottom" timestamp="1575712646384">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="206" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575709443546" />
-    <state width="1388" height="206" key="GridCell.Tab.0.center" timestamp="1575709443545">
+    <state width="1388" height="206" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575712646384" />
+    <state width="1388" height="206" key="GridCell.Tab.0.center" timestamp="1575712646383">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="206" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575709443545" />
-    <state width="1388" height="206" key="GridCell.Tab.0.left" timestamp="1575709443544">
+    <state width="1388" height="206" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575712646383" />
+    <state width="1388" height="206" key="GridCell.Tab.0.left" timestamp="1575712646382">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="206" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575709443544" />
-    <state width="1388" height="206" key="GridCell.Tab.0.right" timestamp="1575709443546">
+    <state width="1388" height="206" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575712646382" />
+    <state width="1388" height="206" key="GridCell.Tab.0.right" timestamp="1575712646383">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="206" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575709443546" />
+    <state width="1388" height="206" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575712646383" />
     <state x="509" y="103" key="RollbackChangesDialog" timestamp="1575708686416">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -391,7 +373,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewSteelRecordControler.java</url>
-          <line>108</line>
+          <line>110</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -401,12 +383,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewSteelRecordControler.java</url>
-          <line>96</line>
+          <line>98</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewSteelRecordControler.java</url>
-          <line>91</line>
+          <line>93</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
