@@ -115,14 +115,6 @@ public class NewSteelRecordControler implements Initializable{
                         stage.close();
                     })
                     .setPositiveBtn("确定", () -> {
-                        FXMLLoader loader = new FXMLLoader();
-                        try {
-                            loader.load(Objects.requireNonNull(getClass().getClassLoader().getResourceAsStream("fxml/steelView.fxml")));
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                        SteelViewControler steelViewControler = loader.getController();
-                        steelViewControler.init();
                         Stage stage = (Stage)steelSave.getScene().getWindow();
                         stage.close();
                     });

@@ -1,18 +1,17 @@
 package com.delete.renter.data;
 
+import com.delete.renter.utils.DateUtil;
+
 import java.io.Serializable;
 
-public class SteelSettle implements Serializable,Comparable<SteelSettle>{
+public class FasteningRenter implements Serializable,Comparable<FasteningRenter>{
     private int id;
     private String buildName;
     private String owner;
     private String time;
+    private String norms;
     private String renterType;
-    private float num;
-    private float accNum;
     private float unitPrice;
-    private int days;
-    private float price;
 
     public int getId() {
         return id;
@@ -38,12 +37,20 @@ public class SteelSettle implements Serializable,Comparable<SteelSettle>{
         this.owner = owner;
     }
 
+    public String getNorms() {
+        return norms;
+    }
+
     public String getTime() {
         return time;
     }
 
     public void setTime(String time) {
         this.time = time;
+    }
+
+    public void setNorms(String norms) {
+        this.norms = norms;
     }
 
     public String getRenterType() {
@@ -54,14 +61,6 @@ public class SteelSettle implements Serializable,Comparable<SteelSettle>{
         this.renterType = renterType;
     }
 
-    public float getNum() {
-        return num;
-    }
-
-    public void setNum(float num) {
-        this.num = num;
-    }
-
     public float getUnitPrice() {
         return unitPrice;
     }
@@ -70,47 +69,35 @@ public class SteelSettle implements Serializable,Comparable<SteelSettle>{
         this.unitPrice = unitPrice;
     }
 
-    public int getDays() {
-        return days;
+    public FasteningRenter(int id, String buildName, String owner, String time, String norms, String renterType,float unitPrice) {
+        this.id = id;
+        this.buildName = buildName;
+        this.owner = owner;
+        this.time = time;
+        this.norms = norms;
+        this.renterType = renterType;
+        this.unitPrice = unitPrice;
     }
 
-    public void setDays(int days) {
-        this.days = days;
-    }
+    public FasteningRenter(){
 
-    public float getPrice() {
-        return price;
-    }
-
-    public void setPrice(float price) {
-        this.price = price;
-    }
-
-    public float getAccNum() {
-        return accNum;
-    }
-
-    public void setAccNum(float accNum) {
-        this.accNum = accNum;
     }
 
     @Override
     public String toString() {
-        return "SteelSettle{" +
+        return "SteelRenter{" +
                 "id=" + id +
                 ", buildName='" + buildName + '\'' +
                 ", owner='" + owner + '\'' +
                 ", time='" + time + '\'' +
+                ", norms='" + norms + '\'' +
                 ", renterType='" + renterType + '\'' +
-                ", num=" + num +
                 ", unitPrice=" + unitPrice +
-                ", days=" + days +
-                ", price=" + price +
                 '}';
     }
 
     @Override
-    public int compareTo(SteelSettle o) {
-        return 0;
+    public int compareTo(FasteningRenter o) {
+        return DateUtil.dateSub(this.time,o.time);
     }
 }

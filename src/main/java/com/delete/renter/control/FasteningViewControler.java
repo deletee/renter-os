@@ -1,22 +1,56 @@
 package com.delete.renter.control;
 
-import com.delete.renter.data.SteelRenter;
+import com.delete.renter.dao.DataHelper;
+import com.delete.renter.data.FasteningRenter;
 import com.delete.renter.ui.NewFasteningRecordFrame;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.collections.ObservableSet;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
+import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.net.URL;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
 
 public class FasteningViewControler implements Initializable {
+    private ObservableList<FasteningRenter> fasteningRenters = FXCollections.observableArrayList();
+    private ObservableSet<String> buildList = FXCollections.observableSet();
+
+    @FXML
+    private ComboBox<String> buildings;
+
     @FXML
     private DatePicker datePicker;
 
     @FXML
-    private TableView<SteelRenter> fasteningTableView;
+    private TableView<FasteningRenter> fasteningTableView;
+
+    @FXML
+    private TableColumn<FasteningRenter, Integer> id;
+
+    @FXML
+    private TableColumn<FasteningRenter, String> buildName;
+
+    @FXML
+    private TableColumn<FasteningRenter, String> owner;
+
+    @FXML
+    private TableColumn<FasteningRenter, String> renterType;
+
+    @FXML
+    private TableColumn<FasteningRenter, String> norms;
+
+    @FXML
+    private TableColumn<FasteningRenter, Float> unitPrice;
+
+    @FXML
+    private TableColumn<FasteningRenter, String> time;
 
     public void onFasteningAdd(){
         new NewFasteningRecordFrame().show();
@@ -26,16 +60,61 @@ public class FasteningViewControler implements Initializable {
         new NewFasteningRecordFrame().show();
     }
 
+    public void init(){
+        initCol();
+        loadData();
+        initBuildings();
+    }
+
+    private void initCol() {
+        id.setCellValueFactory(new PropertyValueFactory<>("id"));
+        buildName.setCellValueFactory(new PropertyValueFactory<>("buildName"));
+        owner.setCellValueFactory(new PropertyValueFactory<>("owner"));
+        renterType.setCellValueFactory(new PropertyValueFactory<>("renterType"));
+        norms.setCellValueFactory(new PropertyValueFactory<>("norms"));
+        unitPrice.setCellValueFactory(new PropertyValueFactory<>("unitPrice"));
+        time.setCellValueFactory(new PropertyValueFactory<>("time"));
+    }
+
+    private void loadData() {
+        fasteningRenters.clear();
+        fasteningRenters.addAll(DataHelper.queryFasteningRecord());
+        fasteningTableView.setItems(fasteningRenters);
+    }
+
+    private void loadData(String buildName) {
+        fasteningRenters.clear();
+        fasteningRenters.addAll(DataHelper.queryFasteningRecordByBuilding(buildName));
+        fasteningTableView.setItems(fasteningRenters);
+    }
+
+    private void initBuildings(){
+        buildList.clear();
+        for (FasteningRenter fasteningRenter:fasteningRenters) {
+            buildList.add(fasteningRenter.getBuildName());
+        }
+        ObservableList<String> tmpList = FXCollections.observableArrayList();
+        tmpList.add("全部");
+        tmpList.addAll(buildList);
+        buildings.setItems(tmpList);
+        buildings.setValue("全部");
+    }
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         datePicker.setValue(LocalDate.now());
+        init();
     }
 
     public void queryFasteningRecordByBuilding(){
-
+        if (buildings.getValue().equals("全部")){
+            loadData();
+        }else{
+            loadData(buildings.getValue());
+        }
     }
 
     public void onFasteningRefresh(){
-
+        init();
     }
 }

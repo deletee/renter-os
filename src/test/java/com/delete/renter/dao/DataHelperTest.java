@@ -2,6 +2,7 @@ package com.delete.renter.dao;
 
 
 import com.delete.renter.constant.RenterType;
+import com.delete.renter.data.FasteningRenter;
 import com.delete.renter.data.SteelRenter;
 import com.delete.renter.utils.DateUtil;
 import com.delete.renter.utils.NormCalc;
@@ -22,6 +23,18 @@ public class DataHelperTest {
         steelRenter.setRenterType(RenterType.RENTER.name());
         steelRenter.setUnitPrice(0.9332223f);
         DataHelper.insertNewSteelRecord(steelRenter);
+    }
+
+    @Test
+    public void insertNewFasteningRecord() {
+        FasteningRenter fasteningRenter = new FasteningRenter();
+        fasteningRenter.setBuildName("E工地");
+        fasteningRenter.setOwner("席晶晶");
+        fasteningRenter.setTime(DateUtil.LongToString(System.currentTimeMillis(),DateUtil.LONG_DATE_FORMAT));
+        fasteningRenter.setNorms("5*9;2*9");
+        fasteningRenter.setRenterType(RenterType.RENTER.name());
+        fasteningRenter.setUnitPrice(0.9332223f);
+        DataHelper.insertNewFasteningRecord(fasteningRenter);
     }
 
     @Test

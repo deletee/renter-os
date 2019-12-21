@@ -206,7 +206,7 @@
                </HBox.margin>
             </Label>
             <Pane layoutX="212.0" layoutY="10.0" prefHeight="42.0" prefWidth="17.0" />
-            <TextField fx:id="unitprice" layoutX="229.0" layoutY="10.0" prefHeight="27.0" prefWidth="188.0" />
+            <TextField fx:id="unitPrice" layoutX="229.0" layoutY="10.0" prefHeight="27.0" prefWidth="188.0" />
          </children>
       </HBox>
       <Separator prefWidth="200.0" />

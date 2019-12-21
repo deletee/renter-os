@@ -2,18 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4aa00ad-b688-4572-beba-eb879639f867" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/FasteningNorm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/FasteningRenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2b702d75-9e97-4a02-a2f2-b068e15666be.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2b702d75-9e97-4a02-a2f2-b068e15666be.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/renter/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c590.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c590.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c590.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c5a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c5b0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c5c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renter/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/cf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/FasteningViewControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/FasteningViewControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewSteelRecordControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewSteelRecordControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/dao/DataHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/dao/DataHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelSettle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/SteelSettle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/tables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/fasteningView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/fasteningView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/newFasteningRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/newFasteningRecord.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/delete/renter/dao/DataHelperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/delete/renter/dao/DataHelperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/FasteningViewControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/FasteningViewControler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewFasteningRecordControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewFasteningRecordControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewSteelRecordControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewSteelRecordControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/dao/DataHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/dao/DataHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/data/SteelSettle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/data/SteelSettle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/tables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/fasteningView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/fasteningView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fxml/newFasteningRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/newFasteningRecord.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/delete/renter/dao/DataHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/delete/renter/dao/DataHelperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +79,13 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="renter" type="feb32156:DbDataSourceImpl" />
-        <item name="APP: schema" type="6aa84934:DerbyImplModel$Schema" />
+        <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="renter" type="feb32156:DbDataSourceImpl" />
-        <item name="APP: schema" type="6aa84934:DerbyImplModel$Schema" />
-        <item name="STEEL: table" type="3b012a07:DerbyImplModel$Table" />
+        <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="FASTERNING: table" type="7a557cd6:DerbyImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -94,6 +131,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="SteelSettleControler&#9;FILE&#9;file:///Users/deletee/workspace/renter-os/src/main/java/com/delete/renter/control/SteelSettleControler.java&#10;Ren&#9;FILE&#9;file:///Users/deletee/workspace/renter-os/src/main/java/com/delete/renter/constant/RenterType.java&#10;DataH&#9;FILE&#9;file:///Users/deletee/workspace/renter-os/src/test/java/com/delete/renter/dao/DataHelperTest.java&#10;DialogBuilder.java&#9;FILE&#9;file:///Users/deletee/workspace/renter-os/src/main/java/com/delete/renter/data/DialogBuilder.java&#10;MainFrameControler&#9;FILE&#9;file:///Users/deletee/workspace/renter-os/src/main/java/com/delete/renter/control/MainFrameControler.java&#10;FRAMEL&#9;FILE&#9;file:///Users/deletee/workspace/renter-os/src/main/java/com/delete/renter/tools/FrameLoader.java&#10;st&#9;FILE&#9;file:///Users/deletee/workspace/renter-os/src/main/resources/fxml/steelView.fxml&#10;MenuBar&#9;PSI&#9;JAVA://javafx.scene.control.MenuBar" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -112,16 +150,6 @@
       <recent name="com.delete.renter.dao" />
       <recent name="com.deletee.renter.core" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/img" />
-      <recent name="$PROJECT_DIR$/src/main/resources/fxml" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.delete.renter.data" />
-      <recent name="com.delete.renter.control" />
-      <recent name="com.delete.renter.utils" />
-      <recent name="com.delete.renter.ui" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -132,27 +160,23 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/delete/renter" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.delete.renter.data" />
+      <recent name="com.delete.renter.control" />
+      <recent name="com.delete.renter.utils" />
+      <recent name="com.delete.renter.ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/fxml" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.NewFasteningRecordFrame">
+  <component name="RunManager" selected="Application.MainFrame">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.delete.renter.test.Main" />
-      <module name="renter-os" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.delete.renter.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.delete.renter.ui.MainFrame" />
@@ -182,20 +206,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewReturnFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.delete.renter.ui.NewReturnFrame" />
-      <module name="renter-os" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.delete.renter.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SteelSettleFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.delete.renter.ui.SteelSettleFrame" />
       <module name="renter-os" />
@@ -212,6 +222,42 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataHelperTest.dropTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="renter-os" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.delete.renter.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.delete.renter.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.delete.renter.dao.DataHelperTest" />
+      <option name="METHOD_NAME" value="dropTable" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataHelperTest.insertNewFasteningRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="renter-os" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.delete.renter.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.delete.renter.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.delete.renter.dao.DataHelperTest" />
+      <option name="METHOD_NAME" value="insertNewFasteningRecord" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,17 +292,17 @@
     <list>
       <item itemvalue="Application.MainFrame" />
       <item itemvalue="Application.SteelSettleFrame" />
-      <item itemvalue="Application.NewReturnFrame" />
       <item itemvalue="Application.NewFasteningRecordFrame" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.DataHelperTest.insertNewFasteningRecord" />
+      <item itemvalue="JUnit.DataHelperTest.dropTable" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewFasteningRecordFrame" />
         <item itemvalue="Application.MainFrame" />
+        <item itemvalue="JUnit.DataHelperTest.insertNewFasteningRecord" />
+        <item itemvalue="JUnit.DataHelperTest.dropTable" />
+        <item itemvalue="Application.NewFasteningRecordFrame" />
         <item itemvalue="Application.SteelSettleFrame" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NewReturnFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +311,22 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:renter" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:renter" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5daf916d" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:renter" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@53b51408" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -299,74 +360,66 @@
       <workItem from="1575688150349" duration="363000" />
       <workItem from="1575706688059" duration="6143000" />
       <workItem from="1576028176202" duration="609000" />
-      <workItem from="1576908724515" duration="1417000" />
+      <workItem from="1576908724515" duration="7915000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="DataHelperTest_insertNewSteelRecord - 2019.11.10 at 16h 23m 38s.xml">
-      <configuration name="DataHelperTest.insertNewSteelRecord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHelperTest_insertNewSteelRecord - 2019.11.10 at 16h 27m 51s.xml">
-      <configuration name="DataHelperTest.insertNewSteelRecord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHelperTest_insertNewSteelRecord - 2019.11.10 at 16h 28m 21s.xml">
-      <configuration name="DataHelperTest.insertNewSteelRecord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHelperTest_insertNewSteelRecord - 2019.11.10 at 16h 28m 46s.xml">
-      <configuration name="DataHelperTest.insertNewSteelRecord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHelperTest_insertNewSteelRecord - 2019.11.10 at 16h 30m 11s.xml">
-      <configuration name="DataHelperTest.insertNewSteelRecord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHelperTest_querySteelRecord - 2019.11.10 at 16h 23m 44s.xml">
-      <configuration name="DataHelperTest.querySteelRecord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHelperTest_querySteelRecord - 2019.11.10 at 16h 27m 58s.xml">
-      <configuration name="DataHelperTest.querySteelRecord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHelperTest_querySteelRecord - 2019.11.10 at 16h 28m 26s.xml">
-      <configuration name="DataHelperTest.querySteelRecord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHelperTest_querySteelRecord - 2019.11.10 at 16h 28m 56s.xml">
-      <configuration name="DataHelperTest.querySteelRecord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHelperTest_querySteelRecord - 2019.11.10 at 16h 30m 17s.xml">
-      <configuration name="DataHelperTest.querySteelRecord" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1575711085606">
+    <state x="320" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576920454534">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1575711085606" />
+    <state x="320" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576920454534" />
+    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1576921792647">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1576921792647" />
     <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575688210036">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1575688210036" />
-    <state width="1388" height="358" key="GridCell.Tab.0.bottom" timestamp="1576915226664">
+    <state x="557" y="101" key="#xdebugger.evaluate" timestamp="1576928201017">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="358" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576915226664" />
+    <state x="557" y="101" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1576928201017" />
+    <state width="1388" height="358" key="GridCell.Tab.0.bottom" timestamp="1576929335503">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="358" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576929335503" />
     <state width="2508" height="206" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1575854556817" />
-    <state width="1388" height="358" key="GridCell.Tab.0.center" timestamp="1576915226663">
+    <state width="1388" height="358" key="GridCell.Tab.0.center" timestamp="1576929335502">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="358" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576915226663" />
+    <state width="1388" height="358" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576929335502" />
     <state width="2508" height="206" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1575854556816" />
-    <state width="1388" height="358" key="GridCell.Tab.0.left" timestamp="1576915226662">
+    <state width="1388" height="358" key="GridCell.Tab.0.left" timestamp="1576929335501">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="358" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576915226662" />
+    <state width="1388" height="358" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576929335501" />
     <state width="2508" height="206" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1575854556816" />
-    <state width="1388" height="358" key="GridCell.Tab.0.right" timestamp="1576915226664">
+    <state width="1388" height="358" key="GridCell.Tab.0.right" timestamp="1576929335503">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="358" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576915226664" />
+    <state width="1388" height="358" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576929335503" />
     <state width="2508" height="206" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1575854556817" />
+    <state width="1388" height="247" key="GridCell.Tab.1.bottom" timestamp="1576929011995">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="247" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576929011995" />
+    <state width="1388" height="247" key="GridCell.Tab.1.center" timestamp="1576929011994">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="247" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576929011994" />
+    <state width="1388" height="247" key="GridCell.Tab.1.left" timestamp="1576929011994">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="247" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576929011994" />
+    <state width="1388" height="247" key="GridCell.Tab.1.right" timestamp="1576929011995">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="247" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576929011995" />
     <state x="509" y="103" key="RollbackChangesDialog" timestamp="1575708686416">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -375,6 +428,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="640" y="199" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1575688202039" />
+    <state x="425" y="156" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1576921663433">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="425" y="156" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1440.900@0.0.1440.900" timestamp="1576921663433" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -395,7 +452,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/dao/DataHelper.java</url>
-          <line>16</line>
+          <line>19</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -433,107 +490,21 @@
           <line>51</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>DateUtil.dateSub(this.time,o.time)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>txtView.getText()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>loader.getController()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>datePicker.getValue().toString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>DataHelper.querySteelRecord()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>rs.getString(2)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>totalH-topH</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mainFrame.getTop().get</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mainFrame.getTop()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>renterType.isSelected()?&quot;renter&quot;:&quot;return&quot;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>AviatorEvaluator.execute(expr)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>totalH-topH</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mainFrame.getTop()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>totalW-leftW</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>label.getWidth()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>title.length()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(borderPane.getWidth()-title.length())/2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(borderPane.getWidth()-title.length())</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>
