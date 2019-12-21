@@ -1,6 +1,7 @@
 package com.delete.renter.control;
 
 import com.delete.renter.dao.DataHelper;
+import com.delete.renter.data.EventModel;
 import com.delete.renter.data.FasteningRenter;
 import com.delete.renter.ui.NewFasteningRecordFrame;
 import javafx.collections.FXCollections;
@@ -21,6 +22,12 @@ import java.util.ResourceBundle;
 public class FasteningViewControler implements Initializable {
     private ObservableList<FasteningRenter> fasteningRenters = FXCollections.observableArrayList();
     private ObservableSet<String> buildList = FXCollections.observableSet();
+
+    private static EventModel eventModel;
+
+    public static EventModel getEventModel() {
+        return eventModel;
+    }
 
     @FXML
     private ComboBox<String> buildings;
@@ -104,6 +111,8 @@ public class FasteningViewControler implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         datePicker.setValue(LocalDate.now());
         init();
+        eventModel = new EventModel();
+        eventModel.textProperty().addListener((obs, oldText, newText) -> loadData());
     }
 
     public void queryFasteningRecordByBuilding(){

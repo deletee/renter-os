@@ -95,10 +95,12 @@ public class NewFasteningRecordControler implements Initializable {
                 .setHyperLink("点击查看",() -> {
                     Stage stage = (Stage)fasteningSave.getScene().getWindow();
                     stage.close();
+                    FasteningViewControler.getEventModel().onAction(String.valueOf(System.currentTimeMillis()));
                 })
                 .setPositiveBtn("确定", () -> {
                     Stage stage = (Stage)fasteningSave.getScene().getWindow();
                     stage.close();
+                    FasteningViewControler.getEventModel().onAction(String.valueOf(System.currentTimeMillis()));
                 });
         dialogBuilder.create();
     }

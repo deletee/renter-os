@@ -2,6 +2,7 @@ package com.delete.renter.control;
 
 import com.delete.renter.dao.DataHelper;
 import com.delete.renter.data.DialogBuilder;
+import com.delete.renter.data.EventModel;
 import com.delete.renter.data.SteelRenter;
 import com.delete.renter.ui.NewSteelRecordFrame;
 import com.delete.renter.ui.SteelSettleFrame;
@@ -23,6 +24,12 @@ public class SteelViewControler implements Initializable {
     private ObservableList<SteelRenter> steelRenterList = FXCollections.observableArrayList();
 
     private ObservableSet<String> buildList = FXCollections.observableSet();
+
+    private static EventModel eventModel;
+
+    public static EventModel getEventModel() {
+        return eventModel;
+    }
 
     @FXML
     private ComboBox<String> buildings;
@@ -130,6 +137,8 @@ public class SteelViewControler implements Initializable {
         init();
         datePicker.setValue(LocalDate.now());
         steelSettleFrame = new SteelSettleFrame();
+        eventModel = new EventModel();
+        eventModel.textProperty().addListener((obs, oldText, newText) -> loadData());
     }
 
     public void querySteelRecordByBuilding(){

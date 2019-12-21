@@ -25,6 +25,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.time.LocalDate;
 import java.util.Objects;
+import java.util.Random;
 import java.util.ResourceBundle;
 
 @ViewController(value = "/fxml/newSteelRecord.fxml", title = "Material Design Example")
@@ -113,10 +114,12 @@ public class NewSteelRecordControler implements Initializable{
                     .setHyperLink("点击查看",() -> {
                         Stage stage = (Stage)steelSave.getScene().getWindow();
                         stage.close();
+                        SteelViewControler.getEventModel().onAction(String.valueOf(System.currentTimeMillis()));
                     })
                     .setPositiveBtn("确定", () -> {
                         Stage stage = (Stage)steelSave.getScene().getWindow();
                         stage.close();
+                        SteelViewControler.getEventModel().onAction(String.valueOf(System.currentTimeMillis()));
                     });
             dialogBuilder.create();
         }
