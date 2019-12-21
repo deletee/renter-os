@@ -160,19 +160,21 @@
             </ComboBox>
             <Pane prefHeight="42.0" prefWidth="16.0" />
             <TextField fx:id="number" prefHeight="27.0" prefWidth="71.0" promptText="数量" />
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="173.0" layoutY="16.0" prefHeight="20.0" prefWidth="20.0" text="x" textFill="#19757f" fx:id="x">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Label>
-            <TextField fx:id="unitprice" layoutX="233.0" layoutY="10.0" prefHeight="27.0" prefWidth="71.0" promptText="价格" />
             <Pane prefHeight="42.0" prefWidth="12.0" />
             <Button fx:id="normalAddBtn" mnemonicParsing="false" onAction="#onAddNorm" prefHeight="27.0" prefWidth="55.0" text="增加" />
+            <Label fx:id="msg1" alignment="CENTER_RIGHT" contentDisplay="CENTER" lineSpacing="4.0" prefHeight="20.0" prefWidth="109.0" text="规格与数量不能为空" textAlignment="CENTER" textFill="#f20909" textOverrun="CLIP">
+               <font>
+                  <Font size="11.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
          </children>
       </HBox>
       <Pane prefHeight="20.0" prefWidth="600.0">
          <children>
-            <Text fx:id="error31" fill="#0b2ae3" layoutX="165.0" layoutY="4.0" strokeType="OUTSIDE" strokeWidth="0.0" text="提示:请遵循 3*6格式,3单位米,6单位根,多规格请用分号分割" textAlignment="CENTER" />
+            <Text fx:id="error31" fill="#0b2ae3" layoutX="225.0" layoutY="4.0" strokeType="OUTSIDE" strokeWidth="0.0" text="提示:请选择规则及对应的数量" textAlignment="CENTER" />
          </children>
       </Pane>
       <HBox prefHeight="42.0" prefWidth="600.0">
@@ -187,7 +189,7 @@
                </HBox.margin>
             </Label>
             <Pane prefHeight="42.0" prefWidth="17.0" />
-            <TextField fx:id="curNorms" disable="true" editable="false" prefHeight="27.0" prefWidth="277.0" />
+            <TextField fx:id="curNorms" disable="true" editable="false" prefHeight="27.0" prefWidth="188.0" />
             <Pane prefHeight="42.0" prefWidth="12.0" />
             <Button fx:id="normalClearBtn" mnemonicParsing="false" onAction="#onClearNorm" prefHeight="27.0" prefWidth="55.0" text="清除" />
          </children>
@@ -204,7 +206,7 @@
                </HBox.margin>
             </Label>
             <Pane layoutX="212.0" layoutY="10.0" prefHeight="42.0" prefWidth="17.0" />
-            <TextField fx:id="curUnitPrice" disable="true" editable="false" layoutX="229.0" layoutY="10.0" prefHeight="27.0" prefWidth="181.0" />
+            <TextField fx:id="unitprice" layoutX="229.0" layoutY="10.0" prefHeight="27.0" prefWidth="188.0" />
          </children>
       </HBox>
       <Separator prefWidth="200.0" />
