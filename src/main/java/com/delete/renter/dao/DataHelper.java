@@ -60,6 +60,16 @@ public class DataHelper {
         return queryFasteningRecord(sql);
     }
 
+    public static void deleteFasteningRecordById(int id) {
+        String sql = String.format("delete from fastening where id = %d",id);
+        DBHandler.getInstance().executeSQL(sql);
+    }
+
+    public static void deleteSteelRecordById(int id) {
+        String sql = String.format("delete from steel where id = %d",id);
+        DBHandler.getInstance().executeSQL(sql);
+    }
+
     public static List<Building> queryBuildings() {
         String sql = "select * from building";
         return queryBuildings(sql);

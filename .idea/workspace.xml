@@ -2,45 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4aa00ad-b688-4572-beba-eb879639f867" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/FasteningSettleControler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/FasteningSettle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/ui/FasteningSettleFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/fasteningSettle.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/renter/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/renter/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c101.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c111.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c121.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c130.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c141.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c31.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c41.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c51.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c71.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c81.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renter/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/ca1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renter/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/renter/seg0/cf0.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/FasteningViewControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/FasteningViewControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/dao/DBHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/dao/DBHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/dao/DataHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/dao/DataHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/FasteningRenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/delete/renter/data/FasteningRenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database/tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/tables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/fasteningSettle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/fasteningSettle.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/fasteningView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/fasteningView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/delete/renter/dao/DataHelperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/delete/renter/dao/DataHelperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/steelView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/steelView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/FasteningViewControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/FasteningViewControler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/dao/DBHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/dao/DBHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewFasteningRecordControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/NewFasteningRecordControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelViewControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/control/SteelViewControler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/delete/renter/dao/DataHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/delete/renter/dao/DataHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/tables.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fxml/fasteningView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/fasteningView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/delete/renter/dao/DataHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/delete/renter/dao/DataHelperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/steelView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/steelView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,7 +334,7 @@
       <workItem from="1575706688059" duration="6143000" />
       <workItem from="1576028176202" duration="609000" />
       <workItem from="1576908724515" duration="9061000" />
-      <workItem from="1576982600202" duration="1310000" />
+      <workItem from="1576982600202" duration="5207000" />
     </task>
     <servers />
   </component>
@@ -373,46 +354,50 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1575688210036" />
-    <state x="557" y="101" key="#xdebugger.evaluate" timestamp="1576928201017">
+    <state x="557" y="101" key="#xdebugger.evaluate" timestamp="1576989098329">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="557" y="101" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1576928201017" />
-    <state width="1387" height="358" key="GridCell.Tab.0.bottom" timestamp="1576983906967">
+    <state x="557" y="101" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1576989098329" />
+    <state width="565" height="582" key="DebuggerActiveHint" timestamp="1576988948555">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1387" height="358" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576983906967" />
+    <state width="565" height="582" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1576988948555" />
+    <state width="1387" height="358" key="GridCell.Tab.0.bottom" timestamp="1577000360702">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1387" height="358" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577000360702" />
     <state width="2508" height="206" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1575854556817" />
-    <state width="1387" height="358" key="GridCell.Tab.0.center" timestamp="1576983906966">
+    <state width="1387" height="358" key="GridCell.Tab.0.center" timestamp="1577000360701">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1387" height="358" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576983906966" />
+    <state width="1387" height="358" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577000360701" />
     <state width="2508" height="206" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1575854556816" />
-    <state width="1387" height="358" key="GridCell.Tab.0.left" timestamp="1576983906966">
+    <state width="1387" height="358" key="GridCell.Tab.0.left" timestamp="1577000360700">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1387" height="358" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576983906966" />
+    <state width="1387" height="358" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577000360700" />
     <state width="2508" height="206" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1575854556816" />
-    <state width="1387" height="358" key="GridCell.Tab.0.right" timestamp="1576983906967">
+    <state width="1387" height="358" key="GridCell.Tab.0.right" timestamp="1577000360701">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1387" height="358" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576983906967" />
+    <state width="1387" height="358" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577000360701" />
     <state width="2508" height="206" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1575854556817" />
-    <state width="1388" height="247" key="GridCell.Tab.1.bottom" timestamp="1576930928648">
+    <state width="1387" height="247" key="GridCell.Tab.1.bottom" timestamp="1576989249519">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="247" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576930928648" />
-    <state width="1388" height="247" key="GridCell.Tab.1.center" timestamp="1576930928648">
+    <state width="1387" height="247" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576989249519" />
+    <state width="1387" height="247" key="GridCell.Tab.1.center" timestamp="1576989249518">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="247" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576930928648" />
-    <state width="1388" height="247" key="GridCell.Tab.1.left" timestamp="1576930928647">
+    <state width="1387" height="247" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576989249518" />
+    <state width="1387" height="247" key="GridCell.Tab.1.left" timestamp="1576989249518">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="247" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576930928647" />
-    <state width="1388" height="247" key="GridCell.Tab.1.right" timestamp="1576930928648">
+    <state width="1387" height="247" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576989249518" />
+    <state width="1387" height="247" key="GridCell.Tab.1.right" timestamp="1576989249519">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="247" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576930928648" />
+    <state width="1387" height="247" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576989249519" />
     <state x="509" y="103" key="RollbackChangesDialog" timestamp="1575708686416">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -421,10 +406,18 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="640" y="199" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1575688202039" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1576988948553">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1576988948553" />
     <state x="425" y="156" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1576921663433">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="425" y="156" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1440.900@0.0.1440.900" timestamp="1576921663433" />
+    <state x="301" y="0" key="search.everywhere.popup" timestamp="1576985682682">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="301" y="0" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1576985682682" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,26 +478,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java</url>
-          <line>84</line>
+          <line>89</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java</url>
-          <line>87</line>
+          <line>92</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java</url>
-          <line>140</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="67" />
+          <line>166</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/NewFasteningRecordControler.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/delete/renter/control/SteelViewControler.java</url>
-          <line>144</line>
-          <option name="timeStamp" value="68" />
+          <line>138</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

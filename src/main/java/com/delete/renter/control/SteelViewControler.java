@@ -3,6 +3,7 @@ package com.delete.renter.control;
 import com.delete.renter.dao.DataHelper;
 import com.delete.renter.data.DialogBuilder;
 import com.delete.renter.data.EventModel;
+import com.delete.renter.data.FasteningRenter;
 import com.delete.renter.data.SteelRenter;
 import com.delete.renter.ui.NewSteelRecordFrame;
 import com.delete.renter.ui.SteelSettleFrame;
@@ -13,6 +14,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
 
 import java.net.URL;
 import java.time.LocalDate;
@@ -132,6 +134,26 @@ public class SteelViewControler implements Initializable {
         init();
     }
 
+    public void onSteelDelete(){
+        TableView.TableViewSelectionModel<SteelRenter> steelRenterTableViewFocusModel =  steelTableView.getSelectionModel();
+        if (steelRenterTableViewFocusModel.getSelectedItem() == null){
+            DialogBuilder dialogBuilder = new DialogBuilder(steelSettle).setTitle("提示")
+                    .setMessage("请选择一条记录删除！")
+                    .setNegativeBtn("确定");
+            dialogBuilder.create();
+        }else{
+            DialogBuilder dialogBuilder = new DialogBuilder(steelSettle).setTitle("提示")
+                    .setMessage("确认删除?(N/Y)")
+                    .setNegativeBtn("取消(N)")
+                    .setPositiveBtn("确认(Y)", () -> {
+                        SteelRenter steelRenter = steelRenterTableViewFocusModel.getSelectedItem();
+                        DataHelper.deleteSteelRecordById(steelRenter.getId());
+                        init();
+                    });
+            dialogBuilder.create();
+        }
+    }
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         init();
@@ -142,7 +164,7 @@ public class SteelViewControler implements Initializable {
     }
 
     public void querySteelRecordByBuilding(){
-        if (buildings.getValue().equals("全部")){
+        if (buildings == null || buildings.getValue().equals("全部")){
             loadData();
         }else{
             loadData(buildings.getValue());

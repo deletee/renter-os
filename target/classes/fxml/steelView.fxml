@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
@@ -30,9 +31,10 @@
                     </font>
                 </Label>
                 <DatePicker fx:id="datePicker" layoutX="273.0" layoutY="14.0" />
-                <Button fx:id="steelAdd" layoutX="702.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onSteelAdd" prefHeight="31.0" prefWidth="52.0" text="录入" />
-                <Button fx:id="steelSettle" layoutX="767.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onSteelSettle" prefHeight="31.0" prefWidth="52.0" text="结算" />
-            <Button fx:id="steelRefresh" layoutX="831.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onSteelRefresh" prefHeight="31.0" prefWidth="52.0" text="刷新" />
+                <Button fx:id="steelAdd" layoutX="651.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onSteelAdd" prefHeight="31.0" prefWidth="52.0" text="录入" />
+                <Button fx:id="steelSettle" layoutX="716.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onSteelSettle" prefHeight="31.0" prefWidth="52.0" text="结算" />
+            <Button fx:id="steelRefresh" layoutX="780.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onSteelRefresh" prefHeight="31.0" prefWidth="52.0" text="刷新" />
+            <Button fx:id="steelDelete" layoutX="842.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onSteelDelete" prefHeight="31.0" prefWidth="52.0" text="删除" />
             </children>
         </Pane>
         <Separator prefHeight="-Infinity" prefWidth="200.0" />

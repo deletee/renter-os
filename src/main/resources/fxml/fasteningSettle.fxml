@@ -28,8 +28,8 @@
                 <TableColumn fx:id="renterType" prefWidth="54.0" text="借/还" />
                 <TableColumn fx:id="time" prefWidth="96.0" text="日期" />
                 <TableColumn fx:id="unitPrice" prefWidth="100.0" text="单价" />
-                <TableColumn fx:id="num" prefWidth="100.0" text="数量" />
-                <TableColumn fx:id="accNum" prefWidth="100.0" text="累计数量" />
+                <TableColumn fx:id="num" prefWidth="100.0" text="件数" />
+                <TableColumn fx:id="accNum" prefWidth="100.0" text="累计件数" />
                 <TableColumn fx:id="days" prefWidth="99.0" text="天数" />
                 <TableColumn fx:id="price" prefWidth="213.0" text="价格" />
             </columns>

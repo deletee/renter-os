@@ -1,8 +1,10 @@
 package com.delete.renter.control;
 
 import com.delete.renter.dao.DataHelper;
+import com.delete.renter.data.DialogBuilder;
 import com.delete.renter.data.EventModel;
 import com.delete.renter.data.FasteningRenter;
+import com.delete.renter.data.SteelRenter;
 import com.delete.renter.ui.NewFasteningRecordFrame;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -130,5 +132,26 @@ public class FasteningViewControler implements Initializable {
 
     public void onFasteningRefresh(){
         init();
+    }
+
+    public void onFasteningDelete(){
+        TableView.TableViewSelectionModel<FasteningRenter> fasteningRenterTableViewFocusModel =  fasteningTableView.getSelectionModel();
+        FasteningRenter fasteningRenter = fasteningRenterTableViewFocusModel.getSelectedItem();
+        if (fasteningRenter == null){
+            DialogBuilder dialogBuilder = new DialogBuilder(fasteningTableView).setTitle("提示")
+                    .setMessage("请选择一条记录删除！")
+                    .setNegativeBtn("确定");
+            dialogBuilder.create();
+        }else{
+            DialogBuilder dialogBuilder = new DialogBuilder(fasteningTableView).setTitle("提示")
+                    .setMessage("确认删除?(N/Y)")
+                    .setNegativeBtn("取消(N)")
+                    .setPositiveBtn("确认(Y)", () -> {
+                        DataHelper.deleteFasteningRecordById(fasteningRenter.getId());
+                        onFasteningRefresh();
+                        init();
+                    });
+            dialogBuilder.create();
+        }
     }
 }

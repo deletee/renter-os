@@ -73,13 +73,18 @@ public class NewFasteningRecordControler implements Initializable {
     @FXML
     private Label msg1;
 
+    private float num = 0.0f;
+
     private final ToggleGroup group = new ToggleGroup();
 
     public void onFasteningAddSave(){
+        if (!check()){
+            return;
+        }
         FasteningRenter fasteningRenter = new FasteningRenter();
         fasteningRenter.setBuildName(buildName.getText());
         fasteningRenter.setOwner(owner.getText());
-        fasteningRenter.setNorms(norms.getValue());
+        fasteningRenter.setNorms(curNorms.getText());
         if (renterType.isSelected()){
             fasteningRenter.setRenterType(RenterType.RENTER.name());
             fasteningRenter.setUnitPrice(Float.parseFloat(unitPrice.getText()));
@@ -88,7 +93,7 @@ public class NewFasteningRecordControler implements Initializable {
             fasteningRenter.setUnitPrice(0.0f);
         }
         fasteningRenter.setTime(datePicker.getValue().toString());
-
+        fasteningRenter.setNum(num);
         DataHelper.insertNewFasteningRecord(fasteningRenter);
         DialogBuilder dialogBuilder = new DialogBuilder(fasteningSave).setTitle("提示")
                 .setMessage("保存成功，")
@@ -104,7 +109,38 @@ public class NewFasteningRecordControler implements Initializable {
                 });
         dialogBuilder.create();
     }
-    
+
+    public void showMsg(Control control,String msg){
+        DialogBuilder dialogBuilder = new DialogBuilder(control).setTitle("提示")
+                .setMessage(msg)
+                .setPositiveBtn("确定", () -> {
+                });
+        dialogBuilder.create();
+    }
+
+    public boolean check(){
+        if(StringUtils.isEmpty(buildName.getText())){
+            showMsg(fasteningSave,"工地名称不能为空!");
+            return false;
+        }
+
+        if(StringUtils.isEmpty(number.getText()) || StringUtils.isEmpty(norms.getValue())){
+            showMsg(fasteningSave,"规格与数量不能为空！");
+            return false;
+        }
+
+        if(StringUtils.isEmpty(owner.getText())){
+            showMsg(fasteningSave,"工地负责人不能为空！");
+            return false;
+        }
+
+        if(StringUtils.isEmpty(unitPrice.getText())){
+            showMsg(fasteningSave,"单价不能为空！");
+            return false;
+        }
+        return true;
+    }
+
     public void onFasteningAddCancel(){
         Stage stage = (Stage)fasteningCancel.getScene().getWindow();
         stage.close();
@@ -134,12 +170,18 @@ public class NewFasteningRecordControler implements Initializable {
     }
 
     public void onAddNorm(){
-        String srcText = curNorms.getText();
         if(StringUtils.isEmpty(number.getText()) || StringUtils.isEmpty(norms.getValue())){
-            msg1.setVisible(true);
+            showMsg(fasteningSave,"规格与数量不能为空!");
             return;
         }
-        msg1.setVisible(false);
+        try {
+            float curNum = Float.parseFloat(number.getText());
+            num += curNum;
+        }catch (NumberFormatException e){
+            showMsg(fasteningSave,"请输入数字!");
+            return;
+        }
+        String srcText = curNorms.getText();
         String normsStr = norms.getValue() + "*" + number.getText();
         if (StringUtils.isEmpty(srcText)){
             curNorms.setText(normsStr);

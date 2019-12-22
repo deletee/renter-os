@@ -31,9 +31,10 @@
                     </font>
                 </Label>
                 <DatePicker fx:id="datePicker" layoutX="273.0" layoutY="14.0" />
-                <Button fx:id="fasteningAdd" layoutX="702.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onFasteningAdd" prefHeight="31.0" prefWidth="52.0" text="录入" />
-                <Button fx:id="fasteningSettle" layoutX="767.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onFasteningSettle" prefHeight="31.0" prefWidth="52.0" text="结算" />
-                <Button fx:id="fasteningRefresh" layoutX="831.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onFasteningRefresh" prefHeight="31.0" prefWidth="52.0" text="刷新" />
+                <Button fx:id="fasteningAdd" layoutX="649.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onFasteningAdd" prefHeight="31.0" prefWidth="52.0" text="录入" />
+                <Button fx:id="fasteningSettle" layoutX="714.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onFasteningSettle" prefHeight="31.0" prefWidth="52.0" text="结算" />
+                <Button fx:id="fasteningRefresh" layoutX="778.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onFasteningRefresh" prefHeight="31.0" prefWidth="52.0" text="刷新" />
+            <Button fx:id="fasteningDelete" layoutX="842.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#onFasteningDelete" prefHeight="31.0" prefWidth="52.0" text="删除" />
             </children>
         </Pane>
         <Separator prefHeight="-Infinity" prefWidth="200.0" />
@@ -46,7 +47,7 @@
                 <TableColumn fx:id="time" prefWidth="100.0" text="日期" />
                 <TableColumn fx:id="norms" prefWidth="256.0" text="规格(类型*数量)" />
                 <TableColumn fx:id="num" prefWidth="100.0" text="件数" />
-                <TableColumn fx:id="unitPrice" prefWidth="156.0" text="单价(元/米·天)" />
+                <TableColumn fx:id="unitPrice" prefWidth="156.0" text="单价(元/件·天)" />
             </columns>
         </TableView>
     </children>
