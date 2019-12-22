@@ -4,15 +4,42 @@ import com.delete.renter.utils.DateUtil;
 
 import java.io.Serializable;
 
-public class FasteningRenter implements Serializable,Comparable<FasteningRenter>{
+public class FasteningSettle implements Serializable,Comparable<FasteningSettle>{
     private int id;
     private String buildName;
     private String owner;
     private String time;
     private String norms;
     private String renterType;
-    private float num;
     private float unitPrice;
+    private int days;
+    private float num;
+    private float accNum;
+    private float price;
+
+    public float getPrice() {
+        return price;
+    }
+
+    public void setPrice(float price) {
+        this.price = price;
+    }
+
+    public float getAccNum() {
+        return accNum;
+    }
+
+    public void setAccNum(float accNum) {
+        this.accNum = accNum;
+    }
+
+    public float getNum() {
+        return num;
+    }
+
+    public void setNum(float num) {
+        this.num = num;
+    }
 
     public int getId() {
         return id;
@@ -70,45 +97,43 @@ public class FasteningRenter implements Serializable,Comparable<FasteningRenter>
         this.unitPrice = unitPrice;
     }
 
-    public float getNum() {
-        return num;
+    public int getDays() {
+        return days;
     }
 
-    public void setNum(float num) {
-        this.num = num;
+    public void setDays(int days) {
+        this.days = days;
     }
 
-    public FasteningRenter(int id, String buildName, String owner, String time, String norms,float num,String renterType, float unitPrice) {
+    public FasteningSettle(int id, String buildName, String owner, String time, String norms, String renterType, float unitPrice) {
         this.id = id;
         this.buildName = buildName;
         this.owner = owner;
         this.time = time;
         this.norms = norms;
-        this.num = num;
         this.renterType = renterType;
         this.unitPrice = unitPrice;
     }
 
-    public FasteningRenter(){
+    public FasteningSettle(){
 
     }
 
     @Override
     public String toString() {
-        return "FasteningRenter{" +
+        return "SteelRenter{" +
                 "id=" + id +
                 ", buildName='" + buildName + '\'' +
                 ", owner='" + owner + '\'' +
                 ", time='" + time + '\'' +
                 ", norms='" + norms + '\'' +
                 ", renterType='" + renterType + '\'' +
-                ", num=" + num +
                 ", unitPrice=" + unitPrice +
                 '}';
     }
 
     @Override
-    public int compareTo(FasteningRenter o) {
+    public int compareTo(FasteningSettle o) {
         return DateUtil.dateSub(this.time,o.time);
     }
 }

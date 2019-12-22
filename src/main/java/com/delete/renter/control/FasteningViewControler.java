@@ -20,6 +20,7 @@ import java.time.LocalDate;
 import java.util.ResourceBundle;
 
 public class FasteningViewControler implements Initializable {
+
     private ObservableList<FasteningRenter> fasteningRenters = FXCollections.observableArrayList();
     private ObservableSet<String> buildList = FXCollections.observableSet();
 
@@ -59,6 +60,9 @@ public class FasteningViewControler implements Initializable {
     @FXML
     private TableColumn<FasteningRenter, String> time;
 
+    @FXML
+    private TableColumn<FasteningRenter, Float> num;
+
     public void onFasteningAdd(){
         new NewFasteningRecordFrame().show();
     }
@@ -79,6 +83,7 @@ public class FasteningViewControler implements Initializable {
         owner.setCellValueFactory(new PropertyValueFactory<>("owner"));
         renterType.setCellValueFactory(new PropertyValueFactory<>("renterType"));
         norms.setCellValueFactory(new PropertyValueFactory<>("norms"));
+        num.setCellValueFactory(new PropertyValueFactory<>("num"));
         unitPrice.setCellValueFactory(new PropertyValueFactory<>("unitPrice"));
         time.setCellValueFactory(new PropertyValueFactory<>("time"));
     }

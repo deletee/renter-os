@@ -35,14 +35,16 @@ public class DataHelper {
     public static void insertNewFasteningRecord(FasteningRenter fasteningRenter) {
         try {
             PreparedStatement statement = DBHandler.getInstance().getConnection().prepareStatement(
-                    "INSERT INTO FASTENING(BUILDNAME,OWNER,TIME,NORMS,RENTERTYPE,UNITPRICE) VALUES(?,?,?,?,?,?)");
+                    "INSERT INTO FASTENING(BUILDNAME,OWNER,TIME,NORMS,NUM,RENTERTYPE,UNITPRICE) VALUES(?,?,?,?,?,?,?)");
             statement.setString(1, fasteningRenter.getBuildName());
             statement.setString(2, fasteningRenter.getOwner());
             statement.setString(3, fasteningRenter.getTime());
             statement.setString(4, fasteningRenter.getNorms());
-            statement.setString(5, fasteningRenter.getRenterType());
-            statement.setFloat(6, NormCalc.setScale(fasteningRenter.getUnitPrice()));
+            statement.setFloat(5, fasteningRenter.getNum());
+            statement.setString(6, fasteningRenter.getRenterType());
+            statement.setFloat(7, NormCalc.setScale(fasteningRenter.getUnitPrice()));
             statement.executeUpdate();
+            System.out.println(String.format("table FASTENING has insert 1 record : {%s}", fasteningRenter));
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
@@ -115,7 +117,8 @@ public class DataHelper {
                 String renterType = rs.getString("renterType");
                 String norms = rs.getString("norms");
                 float unitPrice = rs.getFloat("unitPrice");
-                FasteningRenter fasteningRenter = new FasteningRenter(id, building, owner, time, norms, RenterType.getDesc(renterType), unitPrice);
+                float num = rs.getFloat("num");
+                FasteningRenter fasteningRenter = new FasteningRenter(id, building, owner, time, norms,num , RenterType.getDesc(renterType), unitPrice);
                 fasteningRenters.add(fasteningRenter);
             }
         } catch (Exception e) {

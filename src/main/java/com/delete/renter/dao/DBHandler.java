@@ -53,8 +53,14 @@ public class DBHandler {
     }
 
     public void dropTable(){
-        executeSQL("drop table steel");
+//        executeSQL("drop table steel");
         executeSQL("drop table fastening");
+    }
+
+    public void dropTable(String tableName){
+//        executeSQL("drop table steel");
+        executeSQL("drop table " + tableName);
+        System.out.println(tableName + " was dropped");
     }
 
     public void initDB() {

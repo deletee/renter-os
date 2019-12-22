@@ -32,6 +32,7 @@ public class DataHelperTest {
         fasteningRenter.setOwner("席晶晶");
         fasteningRenter.setTime(DateUtil.LongToString(System.currentTimeMillis(),DateUtil.LONG_DATE_FORMAT));
         fasteningRenter.setNorms("5*9;2*9");
+        fasteningRenter.setNum(18.0f);
         fasteningRenter.setRenterType(RenterType.RENTER.name());
         fasteningRenter.setUnitPrice(0.9332223f);
         DataHelper.insertNewFasteningRecord(fasteningRenter);
@@ -46,7 +47,7 @@ public class DataHelperTest {
 
     @Test
     public void dropTable(){
-        DBHandler.getInstance().dropTable();
-        DBHandler.getInstance().initDB();
+        DBHandler.getInstance().dropTable("fastening");
+//        DBHandler.getInstance().initDB();
     }
 }
