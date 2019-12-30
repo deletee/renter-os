@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
-
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="681.0" prefWidth="904.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.delete.renter.control.SteelViewControler">
     <children>
         <Label alignment="CENTER" text="钢管借还一览表" textFill="#6f6f87">
@@ -46,7 +46,7 @@
                 <TableColumn fx:id="owner" prefWidth="100.0" text="负责人" />
                 <TableColumn fx:id="time" prefWidth="100.0" text="日期" />
                 <TableColumn fx:id="norms" prefWidth="156.0" text="规格(类型*米数)" />
-                <TableColumn fx:id="num" prefWidth="100.0" text="数量" />
+                <TableColumn fx:id="num" prefWidth="100.0" text="米数" />
                 <TableColumn fx:id="unitPrice" prefWidth="156.0" text="单价(元/米·天)" />
             </columns>
         </TableView>

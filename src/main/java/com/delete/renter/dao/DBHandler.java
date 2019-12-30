@@ -1,13 +1,12 @@
 package com.delete.renter.dao;
 
-import com.delete.renter.data.DialogBuilder;
+import com.delete.renter.control.MainFrameControler;
 import org.apache.commons.lang3.StringUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import javax.swing.*;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.InputStream;
@@ -38,11 +37,7 @@ public class DBHandler {
             conn = DriverManager.getConnection(DB_URL);
         }
         catch (Exception e) {
-//            JOptionPane.showMessageDialog(null, "Cant load database", "Database Error", JOptionPane.ERROR_MESSAGE);
-            new DialogBuilder(null).setTitle("提示")
-                    .setMessage("保存成功，")
-                    .setHyperLink("点击查看",null)
-                    .setNegativeBtn("确定").create();
+//            MainFrameControler.getEventModel().onAction("数据库读取失败！");
             System.exit(0);
         }
     }
@@ -64,7 +59,7 @@ public class DBHandler {
     }
 
     public void initDB() {
-        List<String> tableData = new ArrayList<>();
+        List<String> tableData = new ArrayList<String>();
         try {
             Set<String> loadedTables = getDBTables(null);
             System.out.println("Already loaded tables " + loadedTables);
@@ -127,7 +122,7 @@ public class DBHandler {
     }
 
     public Set<String> getDBTables(String schema) throws SQLException {
-        Set<String> set = new HashSet<>();
+        Set<String> set = new HashSet<String>();
         DatabaseMetaData dbmeta = conn.getMetaData();
         readDBTable(set, dbmeta, schema);
         return set;

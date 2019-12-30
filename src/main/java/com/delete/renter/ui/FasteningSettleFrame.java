@@ -30,7 +30,7 @@ public class FasteningSettleFrame extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("钢管结算");
+        primaryStage.setTitle("扣件结算");
 
         Flow flow = new Flow(FasteningSettleControler.class);
         DefaultFlowContainer container = new DefaultFlowContainer();
@@ -58,7 +58,6 @@ public class FasteningSettleFrame extends Application{
         Stage stage = new Stage();
         try {
             this.start(stage);
-//            setShow(true);
         } catch (Exception e) {
             e.printStackTrace();
         }

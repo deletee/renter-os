@@ -1,9 +1,10 @@
 package com.delete.renter.demo;
-import java.util.AbstractMap;
-import java.util.Map.Entry;
+
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Label;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuBar;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.effect.Glow;
 import javafx.scene.effect.SepiaTone;
@@ -11,6 +12,9 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+
+import java.util.AbstractMap;
+import java.util.Map.Entry;
 
 public class MenuSample extends Application {
 

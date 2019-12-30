@@ -4,7 +4,7 @@ import com.delete.renter.dao.DataHelper;
 import com.delete.renter.data.DialogBuilder;
 import com.delete.renter.data.EventModel;
 import com.delete.renter.data.FasteningRenter;
-import com.delete.renter.data.SteelRenter;
+import com.delete.renter.ui.FasteningSettleFrame;
 import com.delete.renter.ui.NewFasteningRecordFrame;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -65,12 +65,23 @@ public class FasteningViewControler implements Initializable {
     @FXML
     private TableColumn<FasteningRenter, Float> num;
 
+    private FasteningSettleFrame fasteningSettleFrame;
+
     public void onFasteningAdd(){
         new NewFasteningRecordFrame().show();
     }
 
     public void onFasteningSettle(){
-        new NewFasteningRecordFrame().show();
+        if (buildings.getValue().equals("全部")){
+            DialogBuilder dialogBuilder = new DialogBuilder(fasteningTableView).setTitle("提示")
+                    .setMessage("请选择指定工地进行结算！")
+                    .setNegativeBtn("确定");
+            dialogBuilder.create();
+        }else{
+            fasteningSettleFrame = new FasteningSettleFrame();
+            fasteningSettleFrame.show();
+            FasteningSettleControler.getEventModel().onAction(buildings.getValue());
+        }
     }
 
     public void init(){

@@ -1,6 +1,5 @@
 package com.delete.renter.ui;
 
-import com.delete.renter.control.MainFrameControler;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -8,12 +7,13 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.awt.*;
+import java.util.Objects;
 
 public class MainFrame extends Application{
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
-        Parent root = loader.load(getClass().getClassLoader().getResourceAsStream("fxml/MainFrame.fxml"));
+        Parent root = loader.load(Objects.requireNonNull(getClass().getClassLoader().getResourceAsStream("fxml/MainFrame.fxml")));
         primaryStage.setTitle("钢模扣件管理系统");
         int screenWidth = Toolkit.getDefaultToolkit().getScreenSize().width;
         int screenHeight = Toolkit.getDefaultToolkit().getScreenSize().height;

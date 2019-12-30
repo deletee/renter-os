@@ -2,6 +2,7 @@ package com.delete.renter.dao;
 
 
 import org.junit.Test;
+
 import java.sql.SQLException;
 
 public class DBHandlerTest {

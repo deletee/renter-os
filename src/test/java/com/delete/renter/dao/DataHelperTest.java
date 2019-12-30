@@ -8,8 +8,6 @@ import com.delete.renter.utils.DateUtil;
 import com.delete.renter.utils.NormCalc;
 import org.junit.Test;
 
-import java.math.BigDecimal;
-
 public class DataHelperTest {
 
     @Test

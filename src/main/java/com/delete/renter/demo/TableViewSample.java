@@ -1,7 +1,5 @@
 package com.delete.renter.demo;
 
-import java.util.HashMap;
-import java.util.Map;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -19,6 +17,9 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.util.Callback;
 import javafx.util.StringConverter;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class TableViewSample extends Application {
 

@@ -1,8 +1,6 @@
 package com.delete.renter.ui;
 
 import com.delete.renter.control.SteelSettleControler;
-import com.delete.renter.data.SteelRenter;
-import com.delete.renter.tools.FrameLoader;
 import com.jfoenix.controls.JFXDecorator;
 import com.jfoenix.svg.SVGGlyph;
 import io.datafx.controller.flow.Flow;

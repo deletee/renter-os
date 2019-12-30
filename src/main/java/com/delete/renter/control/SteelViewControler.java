@@ -3,7 +3,6 @@ package com.delete.renter.control;
 import com.delete.renter.dao.DataHelper;
 import com.delete.renter.data.DialogBuilder;
 import com.delete.renter.data.EventModel;
-import com.delete.renter.data.FasteningRenter;
 import com.delete.renter.data.SteelRenter;
 import com.delete.renter.ui.NewSteelRecordFrame;
 import com.delete.renter.ui.SteelSettleFrame;
@@ -14,7 +13,6 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.stage.Stage;
 
 import java.net.URL;
 import java.time.LocalDate;
@@ -118,13 +116,10 @@ public class SteelViewControler implements Initializable {
     public void onSteelSettle(){
         if (buildings.getValue().equals("全部")){
             DialogBuilder dialogBuilder = new DialogBuilder(steelSettle).setTitle("提示")
-                    .setMessage("无法对所有记录进行计算，请选择指定工地进行结算！")
+                    .setMessage("请选择指定工地进行结算！")
                     .setNegativeBtn("确定");
             dialogBuilder.create();
         }else{
-            ObservableList<SteelRenter> steelRenterForSettleList = FXCollections.observableArrayList();
-            steelRenterForSettleList.addAll(steelRenterList);
-            steelRenterForSettleList.removeIf(steelRenter -> steelRenter.getBuildName().equals(buildings.getValue()));
             steelSettleFrame.show();
             SteelSettleControler.getEventModel().onAction(buildings.getValue());
         }

@@ -1,6 +1,7 @@
 package com.delete.renter.data;
 
 import com.delete.renter.utils.DateUtil;
+
 import java.io.Serializable;
 
 public class Building implements Serializable,Comparable<Building>{

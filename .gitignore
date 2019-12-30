@@ -8,8 +8,15 @@
 *.class
 out
 gen
-database/tmp/
 renter/tmp/
 src/main/java/com/delete/renter/store/tmp/
 target/generated-sources/
 target/generated-test-sources/
+target/classes/META-INF/
+target/classes/com/delete/renter/control/FasteningSettleControler.class
+target/classes/com/delete/renter/data/Building.class
+target/classes/com/delete/renter/data/FasteningNorm.class
+target/classes/com/delete/renter/data/FasteningRenter.class
+target/classes/com/delete/renter/data/FasteningSettle.class
+target/classes/com/delete/renter/ui/FasteningSettleFrame.class
+target/classes/fxml/fasteningSettle.fxml

@@ -50,6 +50,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.shape.StrokeType;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+
 import static java.lang.Math.random;
 
 public class ColorfulCircles extends Application {

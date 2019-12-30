@@ -32,13 +32,12 @@
 package com.delete.renter.ui;
 
 import com.delete.renter.demo.MainFrame;
-import javafx.scene.control.Label;
 import javafx.application.Application;
-import static javafx.geometry.HPos.RIGHT;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
@@ -49,6 +48,8 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.awt.*;
+
+import static javafx.geometry.HPos.RIGHT;
 
 public class Login extends Application {
     private int screenWidth= Toolkit.getDefaultToolkit().getScreenSize().width;
